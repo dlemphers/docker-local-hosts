@@ -1,0 +1,4 @@
+cement==2.10.4
+termcolor
+docker
+jmespath
