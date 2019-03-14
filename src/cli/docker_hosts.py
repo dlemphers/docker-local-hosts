@@ -89,7 +89,7 @@ class ProjectController(cement.core.controller.CementBaseController):
         )
 
         open('/etc/hosts', 'w').write('\n'.join(
-            hosts + ['\n']
+            filter(None, hosts) + ['\n']
         ))
 
 
